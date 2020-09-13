@@ -35,4 +35,4 @@ jobs:
       - name: creating build
         run: npm run build
       - name: deploying on surge
-        run: surge ./build http://bootcamp_classsecond.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://bootcamp_classsecond.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
